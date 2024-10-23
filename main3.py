@@ -1,5 +1,7 @@
 # Попробуем работать с другим сайтом — randomword.com
 # Здесь постоянно выдаются рандомные слова, с которыми мы создадим мини - игру.
+# pip freeze > requirements.txt
+# pip install -r requirements.txt
 
 import requests
 from bs4 import BeautifulSoup
